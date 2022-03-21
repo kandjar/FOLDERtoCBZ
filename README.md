@@ -1,0 +1,2 @@
+# FOLDERtoCBZ
+Create CBZ from FOLDER
