@@ -1,12 +1,13 @@
 # FOLDERtoCBZ
 Create CBZ from FOLDER
 
-## create cbz from folders.bat
-### Folder structure
+## Requierements
+ - 7-Zip (https://www.7-zip.org/download.html). I've used the 64bit version for this so if you use the 32bit version or have installed 7-Zip into a different directory then replace c:\Program Files\7-Zip\ with the path where 7z.exe is installed.
+
+## Folder structure
 
 - MainFolder
    - create cbz from folders.bat
-   - 7za.exe
    - SubF01
       - img001.jpg
       - img002.jpg
@@ -22,9 +23,5 @@ Create CBZ from FOLDER
       - img003.jpg
       - img00x.jpg
   
-### Process :
- - start the bat
-
-Folders are not removed
-
-https://www.7-zip.org/download.html
+## Process :
+ - start the bat (Folders containing images are not deleted)
